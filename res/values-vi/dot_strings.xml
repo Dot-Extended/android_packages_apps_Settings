@@ -288,4 +288,9 @@
     <string name="thermal_control_per_app_video_playback">Xem lại video</string>
     <string name="thermal_control_per_app_dialer">Trình quay số</string>
     <string name="thermal_control_per_app_camera">Camera</string>
+	
+	<!-- Battery temp -->
+    <string name="battery_temp_title">Nhiệt độ pin</string>
+    <string name="battery_temp_summary">Nhấn để chuyển đổi tỷ lệ</string>
+
 </resources>
