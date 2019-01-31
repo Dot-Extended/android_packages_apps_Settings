@@ -278,4 +278,14 @@
     <string name="qs_header_lightgrey">Xám nhạt</string>
     <string name="qs_header_accent">Dựa vào dấu</string>
     <string name="qs_header_transparent">Trong suốt</string>
+	
+	<!-- Thermal control per app -->
+    <string name="thermal_control_per_app">Hồ sơ tối ưu</string>
+    <string name="thermal_control_per_app_default">Không tối ưu</string>
+    <string name="thermal_control_per_app_benchmark">Tăng tốc</string>
+    <string name="thermal_control_per_app_games">Games</string>
+    <string name="thermal_control_per_app_browser">Trình duyệt</string>
+    <string name="thermal_control_per_app_video_playback">Xem lại video</string>
+    <string name="thermal_control_per_app_dialer">Trình quay số</string>
+    <string name="thermal_control_per_app_camera">Camera</string>
 </resources>
