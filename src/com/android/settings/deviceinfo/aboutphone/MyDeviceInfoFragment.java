@@ -41,6 +41,7 @@ import com.android.settings.deviceinfo.DeviceModelPreferenceController;
 import com.android.settings.deviceinfo.DeviceNamePreferenceController;
 import com.android.settings.deviceinfo.FccEquipmentIdPreferenceController;
 import com.android.settings.deviceinfo.FeedbackPreferenceController;
+import com.android.settings.deviceinfo.UpTimePreferenceController;
 import com.android.settings.deviceinfo.IpAddressPreferenceController;
 import com.android.settings.deviceinfo.SELinuxStatusPreferenceController;
 import com.android.settings.deviceinfo.WifiMacAddressPreferenceController;
@@ -126,6 +127,7 @@ public class MyDeviceInfoFragment extends DashboardFragment
         controllers.add(new SELinuxStatusPreferenceController(context));
         controllers.add(
                 new BuildNumberPreferenceController(context, activity, fragment, lifecycle));
+        controllers.add(new UpTimePreferenceController(context));
         return controllers;
     }
 
