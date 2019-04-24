@@ -19,7 +19,7 @@
     <string name="keywords_dot_version">dotOS version, dot version</string>
 	
 	<!-- Toolbar -->
-	<string name="settings_head_title">droid on time 3.0</string>
+	<string name="settings_head_title">Dot-Extended 3.1</string>
 
     <!-- About phone screen, build date -->
     <string name="build_date">Build date</string>
@@ -28,7 +28,7 @@
 	
 	<!-- dotOS System Updates -->
 	<string name="dotos_updater_title">System Updater</string>
-    <string name="dotos_updater_summary">dotOS System Updater</string>
+    <string name="dotos_updater_summary">Dit-Extended System Updater</string>
 
     <!-- Fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
@@ -41,12 +41,10 @@
     <!-- About dotOS -->
     <string name="dot_about_info">About us</string>
     <string name="dot_about_summary">Our introduction and our team</string>
-    <string name="dot_about_info_summary">dotOS is based on Pure Aosp - which is highly optimized for supreme performance! Our ROM primary goal is to provide best Optimized Performance with some handpicked goodies for all devices running our ROM be it of Low, Mid or High End.....</string>
-    <string name="dev_info">About dotOS</string>
+    <string name="dot_about_info_summary">Dot-Extended is based on dotOS - which is highly optimized for supreme performance! Our ROM primary goal is to provide best Optimized Performance with some handpicked goodies for all devices running our ROM be it of Low, Mid or High End.....</string>
+    <string name="dev_info">About Dot</string>
     <string name="github">Github</string>
     <string name="github_description">View our source code</string>
-    <string name="gplus">Google+</string>
-    <string name="gplus_description">Join our G+ community</string>
     <string name="telegram">Telegram</string>
     <string name="telegram_description">Join our Telegram Community</string>
 	<string name="telegram_channel">Telegram Channel</string>

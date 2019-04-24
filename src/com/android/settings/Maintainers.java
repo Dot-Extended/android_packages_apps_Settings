@@ -242,7 +242,7 @@ public class Maintainers extends SettingsPreferenceFragment {
                                 boolean isEmpty = xda_thread == null || xda_thread.trim().length() == 0;
                                 try{
                                     if (isEmpty) {
-                                        getActivity().startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(DOWNLOAD_WEBSITE + "/" + Uri.encode(codename) + "/")));
+                                        getActivity().startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse( Uri.encode(codename) + "/")));
                                     }else{
                                         getActivity().startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(xda_thread)));
                                     }

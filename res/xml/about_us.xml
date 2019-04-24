@@ -32,16 +32,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     android:icon="@drawable/ic_github" >
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="http://github.com/dotOS" />
-        </Preference>
-
-        <Preference
-            android:title="@string/gplus"
-    android:summary="@string/gplus_description"
-    android:icon="@drawable/ic_gplus" >
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="https://plus.google.com/communities/101137692192340076065" />
+               android:data="http://github.com/Dot-Extended" />
         </Preference>
 
         <Preference
@@ -50,7 +41,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     android:icon="@drawable/ic_telegram" >
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="https://telegram.me/dotos" />
+               android:data="https://telegram.me/dotextended" />
         </Preference>
 		
 		<Preference
@@ -59,7 +50,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     android:icon="@drawable/ic_broadcast" >
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="https://t.me/dotOSchannel" />
+               android:data="https://t.me/dotextendedchannel" />
         </Preference>
 
         <Preference
@@ -68,7 +59,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     android:icon="@drawable/ic_downloads" >
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="https://download.droidontime.com/" />
+               android:data="https://sourceforge.net/projects/dot-extended/files/" />
         </Preference>
 
         <Preference
