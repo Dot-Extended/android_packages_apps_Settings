@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2018 Project dotOS
+     Copyright (C) 2018 Project Dot-Extended
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -13,10 +13,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- About phone screen, DotOS version -->
-    <string name="dot_version">dotOS version</string>
+    <!-- About phone screen, Dot-Extended version -->
+    <string name="dot_version">Dot-Extended version</string>
     <string name="dot_version_default">Unknown</string>
-    <string name="keywords_dot_version">dotOS version, dot version</string>
+    <string name="keywords_dot_version">Dot-Extended version, dot version</string>
 	
 	<!-- Toolbar -->
 	<string name="settings_head_title">Dot-Extended 3.1</string>
@@ -26,7 +26,7 @@
     <string name="build_date_default">2015-01-01-0000</string>
     <string name="keywords_build_date">build date, build info</string>
 	
-	<!-- dotOS System Updates -->
+	<!-- Dot-Extended System Updates -->
 	<string name="dotos_updater_title">System Updater</string>
     <string name="dotos_updater_summary">Dot-Extended System Updater</string>
 
@@ -38,7 +38,7 @@
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
 
-    <!-- About dotOS -->
+    <!-- About Dot-Extended -->
     <string name="dot_about_info">About us</string>
     <string name="dot_about_summary">Our introduction and our team</string>
     <string name="dot_about_info_summary">Dot-Extended is based on dotOS - which is highly optimized for supreme performance! Our ROM primary goal is to provide best Optimized Performance with some handpicked goodies for all devices running our ROM be it of Low, Mid or High End.....</string>
@@ -108,7 +108,7 @@
     <string name="system_theme_style_light">Light UI</string>
     <string name="system_theme_style_dark">Dark UI</string>
     <string name="system_theme_style_black">Black UI</string>
-    <string name="system_theme_style_neo">DotOS Neo UI</string>
+    <string name="system_theme_style_neo">Dot-Extended Neo UI</string>
     <string name="theme_applied_toast">Theme applied.</string>
     <string name="applying_theme_toast">Applying theme, please wait...</string>
     <string name="substratum_installed_title">System themes are unavailable because a Substratum overlay is installed. Please uninstall all overlays targeting Android System to proceed.</string>
@@ -196,6 +196,15 @@
     <string name="switch_default">Default</string>
     <string name="switch_md2">Material Design 2</string>
     <string name="switch_oneplus">OnePlus</string>
+    <string name="switch_one">Switch One</string>
+    <string name="switch_two">Switch Two</string>
+    <string name="switch_three">Switch Three</string>
+    <string name="switch_four">Switch Four</string>
+    <string name="switch_five">Switch Five</string>
+    <string name="switch_six">Switch Six</string>
+    <string name="switch_seven">Switch Seven</string>
+    <string name="switch_eight">Switch Eight</string>
+    <string name="switch_nine">Switch Nine</string>
 </resources>
 
 
