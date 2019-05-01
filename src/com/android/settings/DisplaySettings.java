@@ -68,12 +68,9 @@ public class DisplaySettings extends DashboardFragment {
     private static final String KEY_NIGHT_DISPLAY = "night_display";
 
     private static AccentPickerPreferenceController mAccentPickerPreference;
-    private static DarkUIPreferenceController mUIStylePreference;
-	private static QsTileStylesPreferenceController mQsTileStylesPreference;																					   
-
-    private IntentFilter mIntentFilter;
+    private static DarkUIPreferenceController mUIStylePreference;																		             
     private static FontPickerPreferenceController mFontPickerPreference;
-
+    private IntentFilter mIntentFilter;
     private BroadcastReceiver mIntentReceiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
@@ -151,9 +148,9 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new ShowOperatorNamePreferenceController(context));
         controllers.add(new WallpaperPreferenceController(context));
         controllers.add(new ThemePreferenceController(context));
-        controllers.add(mQsTileStylesPreference = new QsTileStylesPreferenceController(context, lifecycle, fragment));
+        controllers.add(new QsTileStylesPreferenceController(context));
         controllers.add(mUIStylePreference = new DarkUIPreferenceController(context, lifecycle, fragment));
-        controllers.add(new ForceAllowThemePreferenceController(context, mUIStylePreference, mAccentPickerPreference, mQsTileStylesPreference));
+        controllers.add(new ForceAllowThemePreferenceController(context, mUIStylePreference, mAccentPickerPreference));
         controllers.add(new BrightnessLevelPreferenceController(context, lifecycle));
         controllers.add(new SwitchStylePreferenceController(context));
         controllers.add(new QsHeaderStylePreferenceController(context));

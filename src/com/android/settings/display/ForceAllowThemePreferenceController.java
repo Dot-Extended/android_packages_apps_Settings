@@ -24,7 +24,6 @@ import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import com.dot.dotextras.preference.SystemSettingSwitchPreference;
 import com.android.settings.display.AccentPickerPreferenceController;
 import com.android.settings.display.DarkUIPreferenceController;
-import com.android.settings.display.QsTileStylesPreferenceController;
 
 import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
@@ -36,13 +35,11 @@ PreferenceControllerMixin, Preference.OnPreferenceChangeListener {
     private static final String KEY_FORCE_ALLOW_SYSTEM_THEMES = "force_allow_system_themes";
     private static DarkUIPreferenceController mUIStylePreference;
     private static AccentPickerPreferenceController mAccentPickerPreference;
-    private static QsTileStylesPreferenceController mQsTileStylesPreference;
 
-    public ForceAllowThemePreferenceController(Context context, DarkUIPreferenceController uiStylePreference, AccentPickerPreferenceController accentPickerPreference, QsTileStylesPreferenceController qsTileStylesPreference) {
+    public ForceAllowThemePreferenceController(Context context, DarkUIPreferenceController uiStylePreference, AccentPickerPreferenceController accentPickerPreference) {
         super(context);
         mUIStylePreference = uiStylePreference;
         mAccentPickerPreference = accentPickerPreference;
-        mQsTileStylesPreference = qsTileStylesPreference;
     }
 
     @Override
@@ -78,7 +75,6 @@ PreferenceControllerMixin, Preference.OnPreferenceChangeListener {
         // Update preferences states
         mUIStylePreference.onResume();
         mAccentPickerPreference.onResume();
-        mQsTileStylesPreference.onResume();
         return true;
     }
 
