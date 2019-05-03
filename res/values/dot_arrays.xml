@@ -131,4 +131,11 @@
         <item>11</item>
     </string-array>
 
+   <!-- For LiveDisplay -->
+    <declare-styleable name="IntervalSeekBarLiveDisplay">
+        <attr name="minValue" format="float" />
+        <attr name="maxValue" format="float" />
+        <attr name="defaultValue" />
+        <attr name="digits" format="integer" />
+    </declare-styleable>
 </resources>
