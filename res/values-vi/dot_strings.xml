@@ -296,4 +296,7 @@
     <string name="location_mode_battery_saving_title">Chế độ tiết kiệm pin</string>
     <string name="location_mode_battery_saving_summary">Chỉ sử dụng Wifi\u2011Fi, Bluetooth, or mạng di động để xác định vị trí (kém chính xác)</string>
 
+    <!-- Battery estimates -->
+    <string name="battery_estimates_title">Ước tính pin trong QS</string>
+    <string name="battery_estimates_summary">Hiển thị thời lượng pin ước tính trong bảng QS</string>
 </resources>
