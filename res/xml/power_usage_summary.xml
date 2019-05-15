@@ -75,7 +75,12 @@
         android:title="@string/device_screen_usage"
         android:selectable="false" />
 
-
+     <com.dot.dotextra.preference.SystemSettingSwitchPreference
+        android:key="show_battery_estimate"
+        android:title="@string/battery_estimates_title"
+        android:summary="@string/battery_estimates_summary"
+        android:defaultValue="true" />
+		
     <com.android.settings.fuelgauge.PowerGaugePreference
         android:key="battery_temp"
         android:title="@string/battery_temp_title"
