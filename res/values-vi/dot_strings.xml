@@ -270,4 +270,12 @@
 	
 	<!-- LiveDisplay - Custom theme mode -->
     <string name="systemui_theme_time">Tự động (theo thời gian trong ngày)</string>
+	
+	<!-- QS header styles -->
+    <string name="qs_header_style_title">Kiểu tiêu đề QS</string>
+    <string name="qs_header_black">Đen</string>
+    <string name="qs_header_grey">Xám</string>
+    <string name="qs_header_lightgrey">Xám nhạt</string>
+    <string name="qs_header_accent">Dựa vào dấu</string>
+    <string name="qs_header_transparent">Trong suốt</string>
 </resources>
