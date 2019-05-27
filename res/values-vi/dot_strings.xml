@@ -267,4 +267,7 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Vuốt sang để chụp màn hình</string>
     <string name="swipe_to_screenshot_gesture_summary">Vuốt ba ngón tay để chụp ảnh màn hình</string>
+	
+	<!-- LiveDisplay - Custom theme mode -->
+    <string name="systemui_theme_time">Tự động (theo thời gian trong ngày)</string>
 </resources>
