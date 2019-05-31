@@ -186,18 +186,19 @@
         android:icon="@drawable/ic_system_theme_style"
         android:entries="@array/system_theme_style_entries"
         android:entryValues="@array/system_theme_style_values" />
-    
+	    
+    <!-- Hide night mode for now
     <Preference
         android:key="accent_picker"
         android:icon="@drawable/ic_accent_picker"
-        android:title="@string/theme_accent_picker_title" />
+        android:title="@string/theme_accent_picker_title" />-->
 
     <ListPreference
         android:key="qs_tile_style"
         android:title="@string/qs_tile_style_title"
         android:persistent="false"
         android:entries="@array/qs_selector_entries"
-        android:entryValues="@array/qs_selector_values" />
+        android:entryValues="@array/qs_selector_values" /> 
 
     <ListPreference
          android:key="switch_style"
