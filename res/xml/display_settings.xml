@@ -175,6 +175,7 @@
     <ListPreference
         android:key="qs_header_style"
         android:title="@string/qs_header_style_title"
+		android:icon="@drawable/header"
         android:persistent="false"
         android:entries="@array/qs_header_style_entries"
         android:entryValues="@array/qs_header_style_values" />
@@ -195,6 +196,7 @@
 
     <ListPreference
         android:key="qs_tile_style"
+		android:icon="@drawable/qs_styles"
         android:title="@string/qs_tile_style_title"
         android:persistent="false"
         android:entries="@array/qs_selector_entries"
@@ -202,6 +204,7 @@
 
     <ListPreference
          android:key="switch_style"
+		 android:icon="@drawable/toggle_switch_outline"
          android:title="@string/switch_style_title"
          android:persistent="false"
          android:entries="@array/switch_style_entries"
