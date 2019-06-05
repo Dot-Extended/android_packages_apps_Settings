@@ -276,8 +276,8 @@ public class SettingsGateway {
             SmartbarSettingsActivity.class.getName(),
             FlingSettingsActivity.class.getName(),
             PulseSettingsActivity.class.getName(),
-            LiveDisplaySettings.class.getName()
-            SmartPixels.class.getName(),
+            LiveDisplaySettings.class.getName(),
+            SmartPixels.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
