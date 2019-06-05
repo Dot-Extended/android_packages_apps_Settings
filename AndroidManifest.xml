@@ -3386,6 +3386,7 @@
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.livedisplay.LiveDisplaySettings" />
+		</activity>
 
         <!-- Smart Pixels -->
         <activity android:name="Settings$SmartPixelsActivity"
