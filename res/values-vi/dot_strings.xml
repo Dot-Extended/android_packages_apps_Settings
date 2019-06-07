@@ -48,7 +48,7 @@
     <string name="help_translate">Dịch thuật</string>
     <string name="help_translate_description">Để dịch sang ngôn ngữ của bạn, truy cập Crowdin</string>
     <string name="walls">Hình nền</string>
-    <string name="walls_description">Truy cập cổng tải về của chúng tôi</string>
+    <string name="walls_description">Tải hình nền được đóng góp từ người dùng </string>
     <string name="maintainers">Người duy trì</string>
     <string name="maintainers_title">Người duy trì chính thức</string>
     <string name="maintainers_summary">Danh sách các thiết bị và người duy trì chính thức.</string>
